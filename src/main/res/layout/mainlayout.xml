@@ -1,0 +1,23 @@
+<LinearLayout android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:padding="16dp"
+        android:id="@+id/image"
+        android:background="@drawable/india"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:id="@+id/textView"
+        android:padding="16dp"
+        android:textSize="25dp"
+        android:background="#af9f01"/>
+
+
+</LinearLayout>
